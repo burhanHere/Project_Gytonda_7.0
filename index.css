@@ -1,0 +1,1015 @@
+.body__ {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.body_div {
+    height: 629px;
+    width: auto;
+    background-image: linear-gradient(to right, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    border: 3px solid greenyellow;
+    /* margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px; */
+}
+
+.div_ball_holder {
+    /* width: 1000px; */
+    height: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 3px solid black; */
+    /* margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px; */
+    animation-name: div_ball_holder_movement;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-duration: 10s;
+}
+
+@keyframes div_ball_holder_movement {
+    0% {
+        /* background-color: black; */
+        margin-top: 0%;
+        margin-left: 0%;
+    }
+    17% {
+        /* background-color: #f09433 0%; */
+        margin-top: 550px;
+        /* margin-left: 41px; */
+    }
+    34% {
+        /* background-color: #e6683c 25%; */
+        margin-top: 0%;
+        /* margin-left: 82px; */
+    }
+    51% {
+        /* background-color: #dc2743 50%; */
+        margin-top: 550px;
+        /* margin-left: 123px; */
+    }
+    68% {
+        /* background-color: #cc2366 75%; */
+        margin-top: 0%;
+        /* margin-left: 164px; */
+    }
+    85% {
+        /* background-color: rgb(51, 199, 199); */
+        /* background-image: linear-gradient(to left, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); */
+        margin-top: 550px;
+        /* margin-left: 0%; */
+    }
+    100% {
+        /* background-color: rgb(145, 75, 211); */
+        margin-top: 0%;
+        /* margin-left: 0%; */
+    }
+}
+
+.flee1 {
+    height: 50px;
+    width: 50px;
+    /* background-color: rgba(255, 1, 1, 0.479); */
+    /* opacity: 80%; */
+    border: 3px solid greenyellow;
+    border-radius: 50%;
+    /* margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px; */
+    animation-name: flee1_movement;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-duration: 10s;
+}
+
+@keyframes flee1_movement {
+    0% {
+        background-color: black;
+        opacity: 70%;
+    }
+    17% {
+        background-color: red;
+        opacity: 70%;
+        /*margin-top: 0%;*/
+        margin-left: 60px;
+    }
+    34% {
+        background-color: orange;
+        opacity: 70%;
+        /*margin-top: 0%;*/
+        margin-left: 80px;
+    }
+    51% {
+        background-color: yellow;
+        opacity: 70%;
+        /*margin-top: 0%;*/
+        margin-left: 40px;
+    }
+    68% {
+        background-color: green;
+        opacity: 70%;
+        /*margin-top: 0%;*/
+        margin-left: 20px;
+    }
+    85% {
+        background-color: blue;
+        opacity: 70%;
+        /* background-image: linear-gradient(to left, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); */
+        /*margin-top: 0%;*/
+        margin-left: 100px;
+    }
+    100% {
+        background-color: indigo;
+        opacity: 70%;
+        /*margin-top: 0%;*/
+        margin-left: 0%;
+    }
+}
+
+.flee2 {
+    height: 50px;
+    width: 50px;
+    /* background-color: rgba(255, 1, 1, 0.479); */
+    /* opacity: 80%; */
+    border: 3px solid greenyellow;
+    border-radius: 50%;
+    /* margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px; */
+    animation-name: flee2_movement;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-duration: 10s;
+}
+
+@keyframes flee2_movement {
+    0% {
+        background-color: black;
+        opacity: 70%;
+        /*margin-top: 0%;*/
+        margin-left: 20px;
+    }
+    17% {
+        background-color: orange;
+        opacity: 70%;
+        /*margin-top: 0%;*/
+        margin-left: 80px;
+    }
+    34% {
+        background-color: red;
+        opacity: 70%;
+        /*margin-top: 0%;*/
+        margin-left: 0%;
+    }
+    51% {
+        background-color: green;
+        opacity: 70%;
+        /*margin-top: 0%;*/
+        margin-left: 0%;
+    }
+    68% {
+        background-color: yellow;
+        opacity: 70%;
+        /*margin-top: 0%;*/
+        margin-left: 40px;
+    }
+    85% {
+        background-color: indigo;
+        opacity: 70%;
+        /* background-image: linear-gradient(to left, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); */
+        /*margin-top: 0%;*/
+        margin-left: 60px;
+    }
+    100% {
+        background-color: blue;
+        opacity: 70%;
+        /*margin-top: 0%;*/
+        margin-left: 100px;
+    }
+}
+
+.flee3 {
+    height: 50px;
+    width: 50px;
+    /* background-color: rgba(255, 1, 1, 0.479); */
+    /* opacity: 80%; */
+    border: 3px solid greenyellow;
+    border-radius: 50%;
+    /* margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px; */
+    animation-name: flee3_movement;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-duration: 10s;
+}
+
+@keyframes flee3_movement {
+    0% {
+        background-color: black;
+        opacity: 70%;
+        /*margin-top: 0%;*/
+        margin-left: 80px;
+    }
+    17% {
+        background-color: yellow;
+        opacity: 70%;
+        /*margin-top: 0%;*/
+        margin-left: 0%;
+    }
+    34% {
+        background-color: red;
+        opacity: 70%;
+        /*margin-top: 0%;*/
+        margin-left: 20px;
+    }
+    51% {
+        background-color: orange;
+        opacity: 70%;
+        /*margin-top: 0%;*/
+        margin-left: 0%;
+    }
+    68% {
+        background-color: indigo;
+        opacity: 70%;
+        /*margin-top: 0%;*/
+        margin-left: 40px;
+    }
+    85% {
+        background-color: green;
+        opacity: 70%;
+        /* background-image: linear-gradient(to left, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); */
+        /*margin-top: 0%;*/
+        margin-left: 100px;
+    }
+    100% {
+        background-color: blue;
+        opacity: 70%;
+        /*margin-top: 0%;*/
+        margin-left: 60px;
+    }
+}
+
+.flee4 {
+    height: 50px;
+    width: 50px;
+    /* background-color: rgba(255, 1, 1, 0.479); */
+    /* opacity: 80%; */
+    border: 3px solid greenyellow;
+    border-radius: 50%;
+    /* margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px; */
+    animation-name: flee4_movement;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-duration: 10s;
+}
+
+@keyframes flee4_movement {
+    0% {
+        background-color: black;
+        opacity: 70%;
+        /*margin-top: 0%;*/
+        margin-left: 20px;
+    }
+    17% {
+        background-color: yellow;
+        opacity: 70%;
+        /*margin-top: 0%;*/
+        margin-left: 80px;
+    }
+    34% {
+        background-color: orange;
+        opacity: 70%;
+        /*margin-top: 0%;*/
+        margin-left: 0%;
+    }
+    51% {
+        background-color: green;
+        opacity: 70%;
+        /*margin-top: 0%;*/
+        margin-left: 60px;
+    }
+    68% {
+        background-color: red;
+        opacity: 70%;
+        /*margin-top: 0%;*/
+        margin-left: 40px;
+    }
+    85% {
+        background-color: indigo;
+        opacity: 70%;
+        /* background-image: linear-gradient(to left, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); */
+        /*margin-top: 0%;*/
+        margin-left: 70px;
+    }
+    100% {
+        background-color: blue;
+        opacity: 70%;
+        /*margin-top: 0%;*/
+        margin-left: 100px;
+    }
+}
+
+.flee5 {
+    height: 50px;
+    width: 50px;
+    /* background-color: rgba(255, 1, 1, 0.479); */
+    /* opacity: 80%; */
+    border: 3px solid greenyellow;
+    border-radius: 50%;
+    /* margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px; */
+    animation-name: flee5_movement;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-duration: 10s;
+}
+
+@keyframes flee5_movement {
+    0% {
+        background-color: black;
+        opacity: 70%;
+        /*margin-top: 0%;*/
+        margin-left: 80px;
+    }
+    17% {
+        background-color: green;
+        opacity: 70%;
+        /*margin-top: 0%;*/
+        margin-left: 0%;
+    }
+    34% {
+        background-color: blue;
+        opacity: 70%;
+        /*margin-top: 0%;*/
+        margin-left: 20px;
+    }
+    51% {
+        background-color: indigo;
+        opacity: 70%;
+        /*margin-top: 0%;*/
+        margin-left: 80px;
+    }
+    68% {
+        background-color: red;
+        opacity: 70%;
+        /*margin-top: 0%;*/
+        margin-left: 40px;
+    }
+    85% {
+        background-color: orange;
+        opacity: 70%;
+        /* background-image: linear-gradient(to left, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); */
+        /*margin-top: 0%;*/
+        margin-left: 100px;
+    }
+    100% {
+        background-color: yellow;
+        opacity: 70%;
+        /*margin-top: 0%;*/
+        margin-left: 60px;
+    }
+}
+
+.flee6 {
+    height: 50px;
+    width: 50px;
+    /* background-color: rgba(255, 1, 1, 0.479); */
+    /* opacity: 80%; */
+    border: 3px solid greenyellow;
+    border-radius: 50%;
+    /* margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px; */
+    animation-name: flee6_movement;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-duration: 10s;
+}
+
+@keyframes flee6_movement {
+    0% {
+        background-color: black;
+        opacity: 70%;
+        /*margin-top: 0%;*/
+        margin-left: 20px;
+    }
+    17% {
+        background-color: green;
+        opacity: 70%;
+        /*margin-top: 0%;*/
+        margin-left: 80px;
+    }
+    34% {
+        background-color: indigo;
+        opacity: 70%;
+        /*margin-top: 0%;*/
+        margin-left: 0%;
+    }
+    51% {
+        background-color: blue;
+        opacity: 70%;
+        /*margin-top: 0%;*/
+        margin-left: 60px;
+    }
+    68% {
+        background-color: red;
+        opacity: 70%;
+        /*margin-top: 0%;*/
+        margin-left: 40px;
+    }
+    85% {
+        background-color: yellow;
+        opacity: 70%;
+        /* background-image: linear-gradient(to left, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); */
+        /*margin-top: 0%;*/
+        margin-left: 70px;
+    }
+    100% {
+        background-color: orange;
+        opacity: 70%;
+        /*margin-top: 0%;*/
+        margin-left: 100px;
+    }
+}
+
+.flee7 {
+    height: 50px;
+    width: 50px;
+    /* background-color: rgba(255, 1, 1, 0.479); */
+    /* opacity: 80%; */
+    border: 3px solid greenyellow;
+    border-radius: 50%;
+    /* margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px; */
+    animation-name: flee7_movement;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-duration: 10s;
+}
+
+@keyframes flee7_movement {
+    0% {
+        background-color: black;
+        opacity: 70%;
+        /*margin-top: 0%;*/
+        margin-left: 80px;
+    }
+    17% {
+        background-color: yellow;
+        opacity: 70%;
+        /*margin-top: 0%;*/
+        margin-left: 0%;
+    }
+    34% {
+        background-color: indigo;
+        opacity: 70%;
+        /*margin-top: 0%;*/
+        margin-left: 20px;
+    }
+    51% {
+        background-color: blue;
+        opacity: 70%;
+        /*margin-top: 0%;*/
+        margin-left: 80px;
+    }
+    68% {
+        background-color: orange;
+        opacity: 70%;
+        /*margin-top: 0%;*/
+        margin-left: 40px;
+    }
+    85% {
+        background-color: red;
+        opacity: 70%;
+        /* background-image: linear-gradient(to left, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); */
+        /*margin-top: 0%;*/
+        margin-left: 100px;
+    }
+    100% {
+        background-color: green;
+        opacity: 70%;
+        /*margin-top: 0%;*/
+        margin-left: 60px;
+    }
+}
+
+.flee8 {
+    height: 50px;
+    width: 50px;
+    /* background-color: rgba(255, 1, 1, 0.479); */
+    /* opacity: 80%; */
+    border: 3px solid greenyellow;
+    border-radius: 50%;
+    /* margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px; */
+    animation-name: flee8_movement;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-duration: 10s;
+}
+
+@keyframes flee8_movement {
+    0% {
+        background-color: black;
+        opacity: 70%;
+        /*margin-top: 0%;*/
+        margin-left: 20px;
+    }
+    17% {
+        background-color: yellow;
+        opacity: 70%;
+        /*margin-top: 0%;*/
+        margin-left: 80px;
+    }
+    34% {
+        background-color: red;
+        opacity: 70%;
+        /*margin-top: 0%;*/
+        margin-left: 0%;
+    }
+    51% {
+        background-color: green;
+        opacity: 70%;
+        /*margin-top: 0%;*/
+        margin-left: 60px;
+    }
+    68% {
+        background-color: blue;
+        opacity: 70%;
+        /*margin-top: 0%;*/
+        margin-left: 40px;
+    }
+    85% {
+        background-color: orange;
+        opacity: 70%;
+        /* background-image: linear-gradient(to left, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); */
+        /*margin-top: 0%;*/
+        margin-left: 70px;
+    }
+    100% {
+        background-color: indigo;
+        opacity: 70%;
+        /*margin-top: 0%;*/
+        margin-left: 100px;
+    }
+}
+
+.flee9 {
+    height: 50px;
+    width: 50px;
+    /* background-color: rgba(255, 1, 1, 0.479); */
+    /* opacity: 80%; */
+    border: 3px solid greenyellow;
+    border-radius: 50%;
+    /* margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px; */
+    animation-name: flee9_movement;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-duration: 10s;
+}
+
+@keyframes flee9_movement {
+    0% {
+        background-color: black;
+        opacity: 70%;
+        /*margin-top: 0%;*/
+        margin-left: 80px;
+    }
+    17% {
+        background-color: red;
+        opacity: 70%;
+        /*margin-top: 0%;*/
+        margin-left: 0%;
+    }
+    34% {
+        background-color: yellow;
+        opacity: 70%;
+        /*margin-top: 0%;*/
+        margin-left: 20px;
+    }
+    51% {
+        background-color: orange;
+        opacity: 70%;
+        /*margin-top: 0%;*/
+        margin-left: 80px;
+    }
+    68% {
+        background-color: green;
+        opacity: 70%;
+        /*margin-top: 0%;*/
+        margin-left: 40px;
+    }
+    85% {
+        background-color: indigo;
+        opacity: 70%;
+        /* background-image: linear-gradient(to left, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); */
+        /*margin-top: 0%;*/
+        margin-left: 100px;
+    }
+    100% {
+        background-color: blue;
+        opacity: 70%;
+        /*margin-top: 0%;*/
+        margin-left: 60px;
+    }
+}
+
+.flee10 {
+    height: 50px;
+    width: 50px;
+    /* background-color: rgba(255, 1, 1, 0.479); */
+    /* opacity: 80%; */
+    border: 3px solid greenyellow;
+    border-radius: 50%;
+    /* margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px; */
+    animation-name: flee10_movement;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-duration: 10s;
+}
+
+@keyframes flee10_movement {
+    0% {
+        background-color: black;
+        opacity: 70%;
+        /*margin-top: 0%;*/
+        margin-left: 20px;
+    }
+    17% {
+        background-color: red;
+        opacity: 70%;
+        /*margin-top: 0%;*/
+        margin-left: 80px;
+    }
+    34% {
+        background-color: orange;
+        opacity: 70%;
+        /*margin-top: 0%;*/
+        margin-left: 0%;
+    }
+    51% {
+        background-color: yellow;
+        opacity: 70%;
+        /*margin-top: 0%;*/
+        margin-left: 60px;
+    }
+    68% {
+        background-color: green;
+        opacity: 70%;
+        /*margin-top: 0%;*/
+        margin-left: 40px;
+    }
+    85% {
+        background-color: blue;
+        opacity: 70%;
+        /* background-image: linear-gradient(to left, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); */
+        /*margin-top: 0%;*/
+        margin-left: 70px;
+    }
+    100% {
+        background-color: indigo;
+        opacity: 70%;
+        /*margin-top: 0%;*/
+        margin-left: 100px;
+    }
+}
+
+.flee11 {
+    height: 50px;
+    width: 50px;
+    /* background-color: rgba(255, 1, 1, 0.479); */
+    /* opacity: 80%; */
+    border: 3px solid greenyellow;
+    border-radius: 50%;
+    /* margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px; */
+    animation-name: flee11_movement;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-duration: 10s;
+}
+
+@keyframes flee11_movement {
+    0% {
+        background-color: black;
+        opacity: 70%;
+        /*margin-top: 0%;*/
+        margin-left: 80px;
+    }
+    17% {
+        background-color: orange;
+        opacity: 70%;
+        /*margin-top: 0%;*/
+        margin-left: 0%;
+    }
+    34% {
+        background-color: red;
+        opacity: 70%;
+        /*margin-top: 0%;*/
+        margin-left: 20px;
+    }
+    51% {
+        background-color: green;
+        opacity: 70%;
+        /*margin-top: 0%;*/
+        margin-left: 80px;
+    }
+    68% {
+        background-color: yellow;
+        opacity: 70%;
+        /*margin-top: 0%;*/
+        margin-left: 40px;
+    }
+    85% {
+        background-color: indigo;
+        opacity: 70%;
+        /* background-image: linear-gradient(to left, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); */
+        /*margin-top: 0%;*/
+        margin-left: 100px;
+    }
+    100% {
+        background-color: blue;
+        opacity: 70%;
+        /*margin-top: 0%;*/
+        margin-left: 60px;
+    }
+}
+
+.flee12 {
+    height: 50px;
+    width: 50px;
+    /* background-color: rgba(255, 1, 1, 0.479); */
+    /* opacity: 80%; */
+    border: 3px solid greenyellow;
+    border-radius: 50%;
+    /* margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px; */
+    animation-name: flee12_movement;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-duration: 10s;
+}
+
+@keyframes flee12_movement {
+    0% {
+        background-color: black;
+        opacity: 70%;
+        /*margin-top: 0%;*/
+        margin-left: 20px;
+    }
+    17% {
+        background-color: yellow;
+        opacity: 70%;
+        /*margin-top: 0%;*/
+        margin-left: 80px;
+    }
+    34% {
+        background-color: red;
+        opacity: 70%;
+        /*margin-top: 0%;*/
+        margin-left: 0%;
+    }
+    51% {
+        background-color: orange;
+        opacity: 70%;
+        /*margin-top: 0%;*/
+        margin-left: 60px;
+    }
+    68% {
+        background-color: indigo;
+        opacity: 70%;
+        /*margin-top: 0%;*/
+        margin-left: 40px;
+    }
+    85% {
+        background-color: green;
+        opacity: 70%;
+        /* background-image: linear-gradient(to left, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); */
+        /*margin-top: 0%;*/
+        margin-left: 70px;
+    }
+    100% {
+        background-color: blue;
+        opacity: 70%;
+        /*margin-top: 0%;*/
+        margin-left: 100px;
+    }
+}
+
+.flee13 {
+    height: 50px;
+    width: 50px;
+    /* background-color: rgba(255, 1, 1, 0.479); */
+    /* opacity: 80%; */
+    border: 3px solid greenyellow;
+    border-radius: 50%;
+    /* margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px; */
+    animation-name: flee13_movement;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-duration: 10s;
+}
+
+@keyframes flee13_movement {
+    0% {
+        background-color: black;
+        opacity: 70%;
+        /*margin-top: 0%;*/
+        margin-left: 80px;
+    }
+    17% {
+        background-color: yellow;
+        opacity: 70%;
+        /*margin-top: 0%;*/
+        margin-left: 0%;
+    }
+    34% {
+        background-color: orange;
+        opacity: 70%;
+        /*margin-top: 0%;*/
+        margin-left: 20px;
+    }
+    51% {
+        background-color: green;
+        opacity: 70%;
+        /*margin-top: 0%;*/
+        margin-left: 80px;
+    }
+    68% {
+        background-color: red;
+        opacity: 70%;
+        /*margin-top: 0%;*/
+        margin-left: 40px;
+    }
+    85% {
+        background-color: indigo;
+        opacity: 70%;
+        /* background-image: linear-gradient(to left, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); */
+        /*margin-top: 0%;*/
+        margin-left: 100px;
+    }
+    100% {
+        background-color: blue;
+        opacity: 70%;
+        /*margin-top: 0%;*/
+        margin-left: 60px;
+    }
+}
+
+.flee14 {
+    height: 50px;
+    width: 50px;
+    /* background-color: rgba(255, 1, 1, 0.479); */
+    /* opacity: 80%; */
+    border: 3px solid greenyellow;
+    border-radius: 50%;
+    /* margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px; */
+    animation-name: flee14_movement;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-duration: 10s;
+}
+
+@keyframes flee14_movement {
+    0% {
+        background-color: black;
+        opacity: 70%;
+        /*margin-top: 0%;*/
+        margin-left: 20px;
+    }
+    17% {
+        background-color: green;
+        opacity: 70%;
+        /*margin-top: 0%;*/
+        margin-left: 80px;
+    }
+    34% {
+        background-color: blue;
+        opacity: 70%;
+        /*margin-top: 0%;*/
+        margin-left: 0%;
+    }
+    51% {
+        background-color: indigo;
+        opacity: 70%;
+        /*margin-top: 0%;*/
+        margin-left: 60px;
+    }
+    68% {
+        background-color: red;
+        opacity: 70%;
+        /*margin-top: 0%;*/
+        margin-left: 40px;
+    }
+    85% {
+        background-color: orange;
+        opacity: 70%;
+        /* background-image: linear-gradient(to left, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); */
+        margin-top: 0%;
+        margin-left: 0px;
+    }
+    100% {
+        background-color: yellow;
+        opacity: 70%;
+        /*margin-top: 0%;*/
+        margin-left: 100px;
+    }
+}
+
+.flee15 {
+    height: 50px;
+    width: 50px;
+    /* background-color: rgba(255, 1, 1, 0.479); */
+    /* opacity: 80%; */
+    border: 3px solid greenyellow;
+    border-radius: 50%;
+    /* margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px; */
+    animation-name: flee15_movement;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-duration: 10s;
+}
+
+@keyframes flee15_movement {
+    0% {
+        background-color: black;
+        opacity: 70%;
+        /*margin-top: 0%;*/
+        margin-left: 80px;
+    }
+    17% {
+        background-color: green;
+        opacity: 70%;
+        /*margin-top: 0%;*/
+        margin-left: 0%;
+    }
+    34% {
+        background-color: indigo;
+        opacity: 70%;
+        /*margin-top: 0%;*/
+        margin-left: 20px;
+    }
+    51% {
+        background-color: blue;
+        opacity: 70%;
+        /*margin-top: 0%;*/
+        margin-left: 80px;
+    }
+    68% {
+        background-color: red;
+        opacity: 70%;
+        /*margin-top: 0%;*/
+        margin-left: 40px;
+    }
+    85% {
+        background-color: yellow;
+        opacity: 70%;
+        /* background-image: linear-gradient(to left, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); */
+        /*margin-top: 0%;*/
+        margin-left: 100px;
+    }
+    100% {
+        background-color: orange;
+        opacity: 70%;
+        /*margin-top: 0%;*/
+        margin-left: 60px;
+    }
+}
